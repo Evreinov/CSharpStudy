@@ -38,9 +38,30 @@ namespace SimpleCSharpApp
             foreach (string arg in theArgs)
                 Console.WriteLine("Arg: {0}", arg);
 
+            // Вспомогательный метод внутри класса Program.
+            ShowEnviromentDetails();
+
             Console.ReadLine();
             // Возвратить произвольный код ошибки.
             return -1;
+        }
+
+        private static void ShowEnviromentDetails()
+        {
+            // Вывести информацию о дисковых устройствах
+            // данной машины и другие интересные детали.
+            foreach (string drive in Environment.GetLogicalDrives())
+                Console.WriteLine("Drive: {0}", drive); // Логические устройства
+
+            Console.WriteLine("OS: {0}", Environment.OSVersion); // Версия операционной системы
+
+            Console.WriteLine("Number of processor: {0}", Environment.ProcessorCount); // Количество процессоров.
+
+            Console.WriteLine(".NET Version: {0}", Environment.Version); // Версия платформы .NET
+
+            Console.WriteLine("Name: {0}", Environment.MachineName); // Имя текущего компьютера
+
+            Console.WriteLine("User name: {0}", Environment.UserName); // Имя пользователя запустившего данное приложение
         }
 
         /* Вариации метода main
