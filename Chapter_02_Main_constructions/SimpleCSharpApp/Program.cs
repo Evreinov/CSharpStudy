@@ -22,8 +22,23 @@ namespace SimpleCSharpApp
             Console.WriteLine("***** My First C# App *****");
             Console.WriteLine("Hello World!");
             Console.WriteLine();
-            Console.ReadLine();
 
+            // Обработать любые водные аргументы
+            for (int i = 0; i < args.Length; i++)
+                Console.WriteLine("Arg: {0}", args[i]);
+            // Или
+            foreach (string arg in args)
+                Console.WriteLine("Arg: {0}", arg);
+
+            // Доступ к аргументам командной строки с помощью GetCommandLineArgs(),
+            // метод Main не нужно определять, как принимающий массив string.
+
+            // Получить аргументы с использованием System.Environment.
+            string[] theArgs = Environment.GetCommandLineArgs();
+            foreach (string arg in theArgs)
+                Console.WriteLine("Arg: {0}", arg);
+
+            Console.ReadLine();
             // Возвратить произвольный код ошибки.
             return -1;
         }
