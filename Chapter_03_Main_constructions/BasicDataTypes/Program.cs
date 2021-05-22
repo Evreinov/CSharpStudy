@@ -13,6 +13,22 @@ namespace BasicDataTypes
             DataTypeFunctionality();
             BooleanFunctionality();
             CharFunctionality();
+            ParseFromString();
+        }
+
+        static void ParseFromString()
+        {
+            Console.WriteLine("=> Data type parsing");
+            bool b = bool.Parse("True");
+            Console.WriteLine("Value of b {0}", b); // Вывод значения b
+            double d = double.Parse("99,884");
+            Console.WriteLine("Value of d {0}", d); // Вывод значения d
+            int i = int.Parse("8");
+            Console.WriteLine("Value of i {0}", i); // Вывод значения i
+            char c = char.Parse("w");
+            Console.WriteLine("Value of c {0}", c); // Вывод значения c
+            Console.WriteLine();
+
         }
 
         static void ObjectFunctionality()
