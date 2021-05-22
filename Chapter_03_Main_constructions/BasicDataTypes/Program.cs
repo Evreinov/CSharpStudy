@@ -14,6 +14,27 @@ namespace BasicDataTypes
             BooleanFunctionality();
             CharFunctionality();
             ParseFromString();
+            ParseFromStringsWithTryParse();
+        }
+
+        static void ParseFromStringsWithTryParse()
+        {
+            Console.WriteLine("=> Data type parsing with TryParse:");
+            if (bool.TryParse("True", out bool b))
+            {
+                Console.WriteLine("Value of b: {0}", b); // Вывод значения b
+            }
+            string value = "Hello";
+            if (double.TryParse("True", out double d))
+            {
+                Console.WriteLine("Value of b: {0}", d); // Вывод значения d
+            }
+            else
+            {
+                // Преобразование потерпело неулачу
+                Console.WriteLine("Failed to convert the input ({0}) to a double", value);
+            }
+            Console.WriteLine();
         }
 
         static void ParseFromString()
@@ -28,7 +49,6 @@ namespace BasicDataTypes
             char c = char.Parse("w");
             Console.WriteLine("Value of c {0}", c); // Вывод значения c
             Console.WriteLine();
-
         }
 
         static void ObjectFunctionality()
