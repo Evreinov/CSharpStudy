@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Numerics;
 
 namespace BasicDataTypes
 {
@@ -15,6 +16,40 @@ namespace BasicDataTypes
             CharFunctionality();
             ParseFromString();
             ParseFromStringsWithTryParse();
+            UseDatesAndTimes();
+            UseBigInteger();
+        }
+
+        static void UseBigInteger()
+        {
+            Console.WriteLine("=> Use BigInteger:");
+            // Литерал лучше задавать в виде строки, чтобы исполняющая среда не трактовала число, как int.
+            BigInteger biggy = BigInteger.Parse("999999999999999999999999999999999999999999999999999999999999999999999");
+            Console.WriteLine("Value of biggy is {0}", biggy); // значение biggy
+            Console.WriteLine("Is biggy an even value?: {0}", biggy.IsEven); // biggy - четное?
+            Console.WriteLine("Is biggy a power of two?: {0}", biggy.IsPowerOfTwo); // biggy - степень 2?
+            BigInteger reallyBig = BigInteger.Multiply(biggy, BigInteger.Parse("88888888888888888888888888888888888888888888888888888888888888888"));
+            BigInteger reallyBig2 = biggy * reallyBig; // Можно вместо Multiply
+            Console.WriteLine("Value of reallyBig is {0}", reallyBig); // Значение reallyBig
+            Console.WriteLine();
+        }
+
+        static void UseDatesAndTimes()
+        {
+            Console.WriteLine("=> Dates and Times:");
+            // Этот конструктор принимает год, месяц и день.
+            DateTime dt = new DateTime(2015, 10, 17);
+            // Какой это день месяца?
+            Console.WriteLine("The day of {0} is {1}", dt.Date, dt.DayOfWeek);
+            // Сейчас месяц декабрь.
+            dt = dt.AddMonths(2);
+            Console.WriteLine("Daylight saving: {0}", dt.IsDaylightSavingTime());
+            // Этот конструктор принимает часы, минуты и секунды.
+            TimeSpan ts = new TimeSpan(4, 30, 0);
+            Console.WriteLine(ts);
+            // Вычесть 15 минут из текущего значения TimeSpan и вывести результат.
+            Console.WriteLine(ts.Subtract(new TimeSpan(0, 15, 0)));
+            Console.WriteLine();
         }
 
         static void ParseFromStringsWithTryParse()
