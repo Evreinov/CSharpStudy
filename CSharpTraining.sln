@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicDataTypes", "Chapter_0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleCSharpApp", "Chapter_03_Main_constructions\SimpleCSharpApp\SimpleCSharpApp.csproj", "{FFAA5437-3588-47EF-AB91-F9FA6E7BA233}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithStrings", "Chapter_03_Main_constructions\FunWithStrings\FunWithStrings.csproj", "{DE3B0751-BAE6-4734-952D-72908BC80CAF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{FFAA5437-3588-47EF-AB91-F9FA6E7BA233}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FFAA5437-3588-47EF-AB91-F9FA6E7BA233}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FFAA5437-3588-47EF-AB91-F9FA6E7BA233}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE3B0751-BAE6-4734-952D-72908BC80CAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE3B0751-BAE6-4734-952D-72908BC80CAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE3B0751-BAE6-4734-952D-72908BC80CAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE3B0751-BAE6-4734-952D-72908BC80CAF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +59,7 @@ Global
 		{D4126EED-E539-47D6-9D3E-5B78906080F6} = {4402D292-FBF2-4CDA-B230-74E55D3EC517}
 		{BE33D480-5849-41EE-9D22-920791EC0EAA} = {4402D292-FBF2-4CDA-B230-74E55D3EC517}
 		{FFAA5437-3588-47EF-AB91-F9FA6E7BA233} = {4402D292-FBF2-4CDA-B230-74E55D3EC517}
+		{DE3B0751-BAE6-4734-952D-72908BC80CAF} = {4402D292-FBF2-4CDA-B230-74E55D3EC517}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {43FB1BAA-2307-42AE-B2AC-FF213B77100B}
