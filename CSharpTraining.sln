@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeConversions", "Chapter_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplicitlyTypedLocalVars", "Chapter_03_Main_constructions\ImplicitlyTypedLocalVars\ImplicitlyTypedLocalVars.csproj", "{7F6BE1C1-FE99-43A5-A456-8FCB2B004225}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IterationsAndDecisions", "Chapter_03_Main_constructions\IterationsAndDecisions\IterationsAndDecisions.csproj", "{10BA0569-DD4A-410C-AC0B-B6AC09552778}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -61,6 +63,10 @@ Global
 		{7F6BE1C1-FE99-43A5-A456-8FCB2B004225}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F6BE1C1-FE99-43A5-A456-8FCB2B004225}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F6BE1C1-FE99-43A5-A456-8FCB2B004225}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10BA0569-DD4A-410C-AC0B-B6AC09552778}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10BA0569-DD4A-410C-AC0B-B6AC09552778}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10BA0569-DD4A-410C-AC0B-B6AC09552778}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10BA0569-DD4A-410C-AC0B-B6AC09552778}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,6 +80,7 @@ Global
 		{DE3B0751-BAE6-4734-952D-72908BC80CAF} = {4402D292-FBF2-4CDA-B230-74E55D3EC517}
 		{98C12C2A-D96B-4F9F-86E7-D7A14AC9E855} = {4402D292-FBF2-4CDA-B230-74E55D3EC517}
 		{7F6BE1C1-FE99-43A5-A456-8FCB2B004225} = {4402D292-FBF2-4CDA-B230-74E55D3EC517}
+		{10BA0569-DD4A-410C-AC0B-B6AC09552778} = {4402D292-FBF2-4CDA-B230-74E55D3EC517}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {43FB1BAA-2307-42AE-B2AC-FF213B77100B}
