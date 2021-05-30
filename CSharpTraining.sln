@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithLocalFunctions", "Ch
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithEnums", "Chapter_04_Main_constructions\FunWithEnums\FunWithEnums.csproj", "{3A7E7457-1148-4C8B-B4D0-A52FFD52A0E6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithStructures", "Chapter_04_Main_constructions\FunWithStructures\FunWithStructures.csproj", "{2D37710A-EA5C-40B2-B11A-1E960B5F1921}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{3A7E7457-1148-4C8B-B4D0-A52FFD52A0E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3A7E7457-1148-4C8B-B4D0-A52FFD52A0E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3A7E7457-1148-4C8B-B4D0-A52FFD52A0E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D37710A-EA5C-40B2-B11A-1E960B5F1921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D37710A-EA5C-40B2-B11A-1E960B5F1921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D37710A-EA5C-40B2-B11A-1E960B5F1921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D37710A-EA5C-40B2-B11A-1E960B5F1921}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -118,6 +124,7 @@ Global
 		{A495E53B-44A4-42BC-ADCE-ABA2ACF579EC} = {D76E0ABE-78E1-4ABC-9891-67EA1CAB2A63}
 		{489AC920-87B0-4C2C-8092-303BED319339} = {D76E0ABE-78E1-4ABC-9891-67EA1CAB2A63}
 		{3A7E7457-1148-4C8B-B4D0-A52FFD52A0E6} = {D76E0ABE-78E1-4ABC-9891-67EA1CAB2A63}
+		{2D37710A-EA5C-40B2-B11A-1E960B5F1921} = {D76E0ABE-78E1-4ABC-9891-67EA1CAB2A63}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {43FB1BAA-2307-42AE-B2AC-FF213B77100B}
