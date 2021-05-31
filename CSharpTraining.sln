@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefTypeValTypeParams", "Cha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NullableTypes", "Chapter_04_Main_constructions\NullableTypes\NullableTypes.csproj", "{51C77FE8-1A02-434E-B338-B0FDE54B4582}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithTuples", "Chapter_04_Main_constructions\FunWithTuples\FunWithTuples.csproj", "{0E1FA0E5-DC50-43B3-96E7-AED526D8B8ED}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{51C77FE8-1A02-434E-B338-B0FDE54B4582}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51C77FE8-1A02-434E-B338-B0FDE54B4582}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51C77FE8-1A02-434E-B338-B0FDE54B4582}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E1FA0E5-DC50-43B3-96E7-AED526D8B8ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E1FA0E5-DC50-43B3-96E7-AED526D8B8ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E1FA0E5-DC50-43B3-96E7-AED526D8B8ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E1FA0E5-DC50-43B3-96E7-AED526D8B8ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -146,6 +152,7 @@ Global
 		{CB437DE4-E812-4F6B-BEEE-2C186BE00875} = {D76E0ABE-78E1-4ABC-9891-67EA1CAB2A63}
 		{DDA22BED-84E6-4C77-8BA9-ED9AC84FABCC} = {D76E0ABE-78E1-4ABC-9891-67EA1CAB2A63}
 		{51C77FE8-1A02-434E-B338-B0FDE54B4582} = {D76E0ABE-78E1-4ABC-9891-67EA1CAB2A63}
+		{0E1FA0E5-DC50-43B3-96E7-AED526D8B8ED} = {D76E0ABE-78E1-4ABC-9891-67EA1CAB2A63}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {43FB1BAA-2307-42AE-B2AC-FF213B77100B}
