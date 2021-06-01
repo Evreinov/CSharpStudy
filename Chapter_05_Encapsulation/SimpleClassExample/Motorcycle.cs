@@ -12,7 +12,10 @@ namespace SimpleClassExample
         public int driverIntensity;
         public string driverName;
 
-        public Motorcycle() { }
+        public Motorcycle() 
+        {
+            Console.WriteLine("In default ctor"); // Внутри стандартного конструктора.
+        }
 
         //// Избыточная логика конструктора!
         //// Проверка, значения intensity, встречается в каждом конструкторе, что приводит
@@ -64,13 +67,20 @@ namespace SimpleClassExample
 
         // Более совершенный подход связанный с построением цепочки вызовов конструкторов с использованием this
         // Связывание конструкторов в цепочку.
-        public Motorcycle(int intensity) : this (intensity, "") { }
+        public Motorcycle(int intensity) : this (intensity, "") 
+        {
+            Console.WriteLine("In ctor taking an int"); // Внутри конструктора, принимающего int.
+        }
 
-        public Motorcycle(string name) : this (0, name) { }
+        public Motorcycle(string name) : this(0, name)
+        {
+            Console.WriteLine("In ctor taking an string"); // Внутри конструктора, принимающего string.
+        }
 
         // Это главный конструктор, выполняющий всю реальную работу.
         public Motorcycle(int intensity, string name)
         {
+            Console.WriteLine("In master ctor"); // Внутри главного конструктораю.
             if (intensity > 10)
             {
                 intensity = 10;

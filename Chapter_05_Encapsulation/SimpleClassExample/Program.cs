@@ -51,6 +51,15 @@ namespace SimpleClassExample
             c.PopAWheely();
             Console.WriteLine("Rider name is {0}", c.name);
             Console.ReadLine();
+
+            Console.WriteLine("***** Fun with Class Types Again *****\n");
+            Console.ReadLine();
+            // Создать объект Motorcycle.
+            Motorcycle motorcycle = new Motorcycle(5);
+            motorcycle.SetDriverName("Tiny");
+            motorcycle.PopAWheely();
+            Console.WriteLine("Rider name is {0}", motorcycle.driverName);
+            Console.ReadLine();
         }
     }
 }
