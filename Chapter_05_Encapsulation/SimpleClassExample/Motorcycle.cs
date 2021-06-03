@@ -76,34 +76,6 @@ namespace SimpleClassExample
         //{
         //    Console.WriteLine("In ctor taking an string"); // Внутри конструктора, принимающего string.
         //}
-
-        //// Это главный конструктор, выполняющий всю реальную работу.
-        //public Motorcycle(int intensity, string name)
-        //{
-        //    Console.WriteLine("In master ctor"); // Внутри главного конструктораю.
-        //    if (intensity > 10)
-        //    {
-        //        intensity = 10;
-        //    }
-        //    driverIntensity = intensity;
-        //    driverName = name;
-        //}
-
-        // ==========================================================================================
-
-        // Конструктор начиная с версии 4.0 с помощью необязательных аргументов.
-        // Единственный контсруктор, использующий необязательные аргументы.
-        public Motorcycle(int intensity = 0, string name = "")
-        {
-            if (intensity > 10)
-            {
-                intensity = 10;
-            }
-            driverIntensity = intensity;
-            driverName = name;
-        }
-
-
         public void SetDriverName(string name)
         {
             driverName = name;
@@ -115,6 +87,18 @@ namespace SimpleClassExample
             {
                 Console.WriteLine("Yeeeeeeee Haaaaaeewww!");
             }
+        }
+
+        // Вернуть стандартный конструктор, который будет 
+        // устанавливать все члены данных в стандартные значения.
+        // (т.к. если определен специальный конструктор, то стандартный конструктор
+        // молча удаляется из класса и перестает быть доступным, нужно стандартный конструктор явно переопределить)
+        public Motorcycle() { }
+
+        // Специальный конструктор.
+        public Motorcycle(int intensity)
+        {
+            driverIntensity = intensity;
         }
     }
 }
