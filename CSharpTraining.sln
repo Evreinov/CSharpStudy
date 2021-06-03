@@ -63,6 +63,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectInitializers", "Chapt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConstData", "Chapter_05_Encapsulation\ConstData\ConstData.csproj", "{F9F44FE5-21F1-40A9-BC3E-6DB3DEE08A77}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter_06_Inheritance_and_Polymorphism", "Chapter_06_Inheritance_and_Polymorphism", "{EFF9D699-102C-4B3C-918F-747F3100505A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
