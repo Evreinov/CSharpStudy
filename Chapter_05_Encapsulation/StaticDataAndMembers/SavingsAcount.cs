@@ -7,7 +7,14 @@
         public double currBalance;
 
         // Статический элемент данных.
-        public static double currInterestRate = 0.04;
+        private static double currInterestRate = 0.04;
+
+        // Статическое свойство
+        public static double InterestRate 
+        {
+            get { return currInterestRate; } 
+            set { currInterestRate = value; } 
+        }
 
         // Обратите внимание, что конструктор устанавливает
         // значение статического поля currInterestRate

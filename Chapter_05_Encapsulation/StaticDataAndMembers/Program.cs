@@ -22,6 +22,8 @@ namespace StaticDataAndMembers
             SavingsAcount s2 = new SavingsAcount(100);
             // Вывести текущую процентную ставку.
             Console.WriteLine("Interest Rate is: {0}", SavingsAcount.GetInterestRate());
+            // Вывести текущую процентную ставку через свойство.
+            Console.WriteLine("Interest Rate is: {0}", SavingsAcount.InterestRate);
 
             // Создать новый объект; это не 'сбросит' процентную ставку.
             SavingsAcount s3 = new SavingsAcount(10000.75);
