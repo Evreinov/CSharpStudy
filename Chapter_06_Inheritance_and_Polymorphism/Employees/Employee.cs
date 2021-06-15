@@ -2,7 +2,9 @@
 
 namespace Employees
 {
-    partial class Employee
+    // Превращение класса Employee в абстактный для
+    // предотвращения прямого создания его экземпляров.
+    abstract partial class Employee
     {
         // Свойства.
         public string Name
@@ -43,16 +45,18 @@ namespace Employees
         }
 
         // Методы
-        public void GiveBonus(float amount)
+        // virtual - может быть (но не обязательно) данный метод может быть переопределен в производном классе.
+        public virtual void GiveBonus(float amount)
         {
             Pay += amount;
         }
-        public void DisplayStats()
+        public virtual void DisplayStats()
         {
             Console.WriteLine("Name: {0}", Name); // Имя сотрудника.
             Console.WriteLine("Age: {0}", Age); // Имя сотрудника.
             Console.WriteLine("ID: {0}", ID); // Идентификкацтонный номер сотрудника.
             Console.WriteLine("Pay: {0}", Pay); // Текущая выплата.
+            Console.WriteLine("SSN: {0}", SocialSecurityNumber);
         }
         // Открываем доступ к некоторому поведению, связанному со льготами.
         public double GetBenefitCost()

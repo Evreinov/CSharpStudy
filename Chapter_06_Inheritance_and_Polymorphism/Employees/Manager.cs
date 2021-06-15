@@ -20,5 +20,19 @@ namespace Employees
             StockOptions = numbOfOpts;
         }
         public int StockOptions { get; set; }
+
+        // Переопределенный метод.
+        public override void GiveBonus(float amount)
+        {
+            base.GiveBonus(amount);
+            Random r = new Random();
+            StockOptions += r.Next(100);
+        }
+
+        public override void DisplayStats()
+        {
+            base.DisplayStats();
+            Console.WriteLine("Number of Stock Options: {0}", StockOptions);
+        }
     }
 }
