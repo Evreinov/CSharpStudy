@@ -75,6 +75,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IterationsAndDecisions", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectOverrides", "Chapter_06_Inheritance_and_Polymorphism\ObjectOverrides\ObjectOverrides.csproj", "{7F666BF3-A9C8-4A76-89BE-F59BCC1D4E65}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter_07_Exceptions", "Chapter_07_Exceptions", "{96059BCE-C841-46FC-97F2-1454CE7CB7C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleException", "Chapter_07_Exceptions\SimpleException\SimpleException.csproj", "{9C177FE3-DE12-4D4E-BF49-17E887FAE847}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -205,6 +209,10 @@ Global
 		{7F666BF3-A9C8-4A76-89BE-F59BCC1D4E65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F666BF3-A9C8-4A76-89BE-F59BCC1D4E65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F666BF3-A9C8-4A76-89BE-F59BCC1D4E65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C177FE3-DE12-4D4E-BF49-17E887FAE847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C177FE3-DE12-4D4E-BF49-17E887FAE847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C177FE3-DE12-4D4E-BF49-17E887FAE847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C177FE3-DE12-4D4E-BF49-17E887FAE847}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -241,6 +249,7 @@ Global
 		{8FD5B23E-B0CA-43B1-88D4-3ADB9F3BE3C8} = {EFF9D699-102C-4B3C-918F-747F3100505A}
 		{0D223F26-864D-41A4-8877-F864DC271CFF} = {EFF9D699-102C-4B3C-918F-747F3100505A}
 		{7F666BF3-A9C8-4A76-89BE-F59BCC1D4E65} = {EFF9D699-102C-4B3C-918F-747F3100505A}
+		{9C177FE3-DE12-4D4E-BF49-17E887FAE847} = {96059BCE-C841-46FC-97F2-1454CE7CB7C7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {43FB1BAA-2307-42AE-B2AC-FF213B77100B}
