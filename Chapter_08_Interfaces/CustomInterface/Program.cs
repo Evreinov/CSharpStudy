@@ -67,6 +67,18 @@ namespace CustomInterface
             }
             #endregion
 
+            #region Массивы интерфейсных типов
+            // Этот массив может содержать только типы,
+            // которые реализует интерфейс IPointy
+            IPointy[] myPointyObjects = { new Hexagon(), new Knife(), new Triangle(), new Fork(), new PitchFork() };
+            foreach (IPointy i in myPointyObjects)
+                Console.WriteLine("Object has {0} points.", i.Points);
+            {
+
+            }
+
+            #endregion
+
             #endregion
 
             Console.ReadLine();
