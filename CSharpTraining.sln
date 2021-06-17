@@ -83,6 +83,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomException", "Chapter_
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessMultipleExceptions", "Chapter_07_Exceptions\ProcessMultipleExceptions\ProcessMultipleExceptions.csproj", "{8919A01D-856C-414C-AA41-036C6FD6DE29}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter_08_Interfaces", "Chapter_08_Interfaces", "{EFDC819F-4EA0-46F1-9FD6-A72A4C8C4AD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ICloneableExample", "Chapter_08_Interfaces\ICloneableExample\ICloneableExample.csproj", "{1C2B265C-9AF2-4EC0-A6C2-9082EF20926D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -225,6 +229,10 @@ Global
 		{8919A01D-856C-414C-AA41-036C6FD6DE29}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8919A01D-856C-414C-AA41-036C6FD6DE29}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8919A01D-856C-414C-AA41-036C6FD6DE29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C2B265C-9AF2-4EC0-A6C2-9082EF20926D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C2B265C-9AF2-4EC0-A6C2-9082EF20926D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C2B265C-9AF2-4EC0-A6C2-9082EF20926D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C2B265C-9AF2-4EC0-A6C2-9082EF20926D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -264,6 +272,7 @@ Global
 		{9C177FE3-DE12-4D4E-BF49-17E887FAE847} = {96059BCE-C841-46FC-97F2-1454CE7CB7C7}
 		{0228F81E-5130-44B7-BD49-93390CEC33AE} = {96059BCE-C841-46FC-97F2-1454CE7CB7C7}
 		{8919A01D-856C-414C-AA41-036C6FD6DE29} = {96059BCE-C841-46FC-97F2-1454CE7CB7C7}
+		{1C2B265C-9AF2-4EC0-A6C2-9082EF20926D} = {EFDC819F-4EA0-46F1-9FD6-A72A4C8C4AD1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {43FB1BAA-2307-42AE-B2AC-FF213B77100B}
