@@ -21,6 +21,14 @@ namespace FunWithGenericCollections
             UseGenericQueue();
             Console.WriteLine();
             Console.ReadLine();
+
+            UseSortedSet();
+            Console.WriteLine();
+            Console.ReadLine();
+
+            UseDictionary();
+            Console.WriteLine();
+            Console.ReadLine();
         }
 
         /// <summary>
@@ -119,6 +127,70 @@ namespace FunWithGenericCollections
         static void GetCoffee(Person p)
         {
             Console.WriteLine("{0} got coffee!", p.FirstName);
+        }
+
+        /// <summary>
+        /// Работа с классом SrtedSet<T>.
+        /// </summary>
+        static void UseSortedSet()
+        {
+            // Создать несколько объектов Person с разными значениями возраста.
+            SortedSet<Person> setOfPeople = new SortedSet<Person>(new SortPeopleByAge())
+            {
+                new Person {FirstName = "Homer", LastName = "Simpson", Age = 47},
+                new Person {FirstName = "Marge", LastName = "Simpson", Age = 45},
+                new Person {FirstName = "Lisa", LastName = "Simpson", Age = 9},
+                new Person {FirstName = "Bart", LastName = "Simpson", Age = 8},
+            };
+            // Обратите внимание, что элементы отсортированы по возрасту.
+            foreach (Person p in setOfPeople)
+            {
+                Console.WriteLine(p);
+            }
+            Console.WriteLine();
+
+            // Добавить ещё несколько объектов Person с разными значениями возраста.
+            setOfPeople.Add(new Person { FirstName = "Saku", LastName = "Jones", Age = 1 });
+            setOfPeople.Add(new Person { FirstName = "Mikko", LastName = "Jones", Age = 32 });
+            // Элементы по-пржднему отсортированы по возрасту.
+            foreach (Person p in setOfPeople)
+            {
+                Console.WriteLine(p);
+            }
+        }
+
+        /// <summary>
+        /// Работа с классом Dictionary<TKey, TValue>.
+        /// </summary>
+        private static void UseDictionary()
+        {
+            // Наполнить с помощью метода Add().
+            Dictionary<string, Person> peopleA = new Dictionary<string, Person>();
+            peopleA.Add("Homer", new Person { FirstName = "Homer", LastName = "Simpson", Age = 47 });
+            peopleA.Add("Marge", new Person { FirstName = "Marge", LastName = "Simpson", Age = 45 });
+            peopleA.Add("Lisa", new Person { FirstName = "Lisa", LastName = "Simpson", Age = 9 });
+            // Получить элемент с ключом Homer.
+            Person homer = peopleA["Homer"];
+            Console.WriteLine(homer);
+
+            // Наполнить с помощью синтаксиса инициализации.
+            Dictionary<string, Person> peopleB = new Dictionary<string, Person>()
+            {
+                { "Homer", new Person { FirstName = "Homer", LastName = "Simpson", Age = 47 } },
+                { "Marge", new Person { FirstName = "Marge", LastName = "Simpson", Age = 45 } },
+                { "Lisa", new Person { FirstName = "Lisa", LastName = "Simpson", Age = 9 } }
+            };
+            // Получить элемент с ключом Lisa.
+            Person lisa = peopleB["Lisa"];
+            Console.WriteLine(lisa);
+
+            // Наполнить с помощью связанного синтаксиса инициализации (инициализация словаря).
+            Dictionary<string, Person> peopleС = new Dictionary<string, Person>()
+            {
+                ["Homer"] = new Person { FirstName = "Homer", LastName = "Simpson", Age = 47 },
+                ["Marge"] = new Person { FirstName = "Marge", LastName = "Simpson", Age = 45 },
+                ["Lisa"] = new Person { FirstName = "Lisa", LastName = "Simpson", Age = 9 }
+            };
         }
     }
 }
