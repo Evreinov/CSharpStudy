@@ -114,6 +114,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomGenericMethods", "Cha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericPoint", "Chapter_09_Collections_and_Generics\GenericPoint\GenericPoint.csproj", "{987DB352-8530-4CAF-AEEA-5C38005B05A7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter_10_Delegates_Events_and_Lambda_Expressions", "Chapter_10_Delegates_Events_and_Lambda_Expressions", "{20A29B40-B425-47CB-BD65-77F84F5A5093}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
