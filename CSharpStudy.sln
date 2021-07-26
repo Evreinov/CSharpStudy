@@ -102,6 +102,18 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloneablePoint", "Chapter_0
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComparableCar", "Chapter_08_Interfaces\ComparableCar\ComparableCar.csproj", "{A72E5E9B-5CD2-4193-AF82-3B9BBFF8E983}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter_09_Collections_and_Generics", "Chapter_09_Collections_and_Generics", "{5B740219-DAA9-4DF8-BB62-D39CABD8931E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IssuesWithNongenericCollections", "Chapter_09_Collections_and_Generics\IssuesWithNongenericCollections\IssuesWithNongenericCollections.csproj", "{93E12DB1-9A35-4C3B-BEA0-1EE28F62B7BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithGenericCollections", "Chapter_09_Collections_and_Generics\FunWithGenericCollections\FunWithGenericCollections.csproj", "{5CB1B9D3-C905-40E4-8D14-EF28F5A1B655}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunWithObservableCollections", "Chapter_09_Collections_and_Generics\FunWithObservableCollections\FunWithObservableCollections.csproj", "{69FDB043-8317-41A7-A760-5D0E8E08BEA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomGenericMethods", "Chapter_09_Collections_and_Generics\CustomGenericMethods\CustomGenericMethods.csproj", "{466CE9B8-9021-499C-82E7-7AE04948DB66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericPoint", "Chapter_09_Collections_and_Generics\GenericPoint\GenericPoint.csproj", "{987DB352-8530-4CAF-AEEA-5C38005B05A7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -280,6 +292,26 @@ Global
 		{A72E5E9B-5CD2-4193-AF82-3B9BBFF8E983}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A72E5E9B-5CD2-4193-AF82-3B9BBFF8E983}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A72E5E9B-5CD2-4193-AF82-3B9BBFF8E983}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93E12DB1-9A35-4C3B-BEA0-1EE28F62B7BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93E12DB1-9A35-4C3B-BEA0-1EE28F62B7BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93E12DB1-9A35-4C3B-BEA0-1EE28F62B7BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93E12DB1-9A35-4C3B-BEA0-1EE28F62B7BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CB1B9D3-C905-40E4-8D14-EF28F5A1B655}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CB1B9D3-C905-40E4-8D14-EF28F5A1B655}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CB1B9D3-C905-40E4-8D14-EF28F5A1B655}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CB1B9D3-C905-40E4-8D14-EF28F5A1B655}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69FDB043-8317-41A7-A760-5D0E8E08BEA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69FDB043-8317-41A7-A760-5D0E8E08BEA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69FDB043-8317-41A7-A760-5D0E8E08BEA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69FDB043-8317-41A7-A760-5D0E8E08BEA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{466CE9B8-9021-499C-82E7-7AE04948DB66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{466CE9B8-9021-499C-82E7-7AE04948DB66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{466CE9B8-9021-499C-82E7-7AE04948DB66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{466CE9B8-9021-499C-82E7-7AE04948DB66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{987DB352-8530-4CAF-AEEA-5C38005B05A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{987DB352-8530-4CAF-AEEA-5C38005B05A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{987DB352-8530-4CAF-AEEA-5C38005B05A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{987DB352-8530-4CAF-AEEA-5C38005B05A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -328,6 +360,11 @@ Global
 		{8E5D11D3-A643-4AF4-9DE8-24F2DAE56384} = {EFDC819F-4EA0-46F1-9FD6-A72A4C8C4AD1}
 		{AD1DA72B-1752-44A6-B683-7E3458C4945E} = {EFDC819F-4EA0-46F1-9FD6-A72A4C8C4AD1}
 		{A72E5E9B-5CD2-4193-AF82-3B9BBFF8E983} = {EFDC819F-4EA0-46F1-9FD6-A72A4C8C4AD1}
+		{93E12DB1-9A35-4C3B-BEA0-1EE28F62B7BB} = {5B740219-DAA9-4DF8-BB62-D39CABD8931E}
+		{5CB1B9D3-C905-40E4-8D14-EF28F5A1B655} = {5B740219-DAA9-4DF8-BB62-D39CABD8931E}
+		{69FDB043-8317-41A7-A760-5D0E8E08BEA6} = {5B740219-DAA9-4DF8-BB62-D39CABD8931E}
+		{466CE9B8-9021-499C-82E7-7AE04948DB66} = {5B740219-DAA9-4DF8-BB62-D39CABD8931E}
+		{987DB352-8530-4CAF-AEEA-5C38005B05A7} = {5B740219-DAA9-4DF8-BB62-D39CABD8931E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {43FB1BAA-2307-42AE-B2AC-FF213B77100B}
