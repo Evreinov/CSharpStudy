@@ -118,6 +118,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter_10_Delegates_Events
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleDelegate", "Chapter_10_Delegates_Events_and_Lambda_Expressions\SimpleDelegate\SimpleDelegate.csproj", "{5726F729-2CD0-4FF6-B78D-0CF52C30C3BD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarDelegate", "Chapter_10_Delegates_Events_and_Lambda_Expressions\CarDelegate\CarDelegate.csproj", "{B2E634B4-42E2-42B7-91FE-49E9B7EF520C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -320,6 +322,10 @@ Global
 		{5726F729-2CD0-4FF6-B78D-0CF52C30C3BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5726F729-2CD0-4FF6-B78D-0CF52C30C3BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5726F729-2CD0-4FF6-B78D-0CF52C30C3BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2E634B4-42E2-42B7-91FE-49E9B7EF520C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2E634B4-42E2-42B7-91FE-49E9B7EF520C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2E634B4-42E2-42B7-91FE-49E9B7EF520C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2E634B4-42E2-42B7-91FE-49E9B7EF520C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -374,6 +380,7 @@ Global
 		{466CE9B8-9021-499C-82E7-7AE04948DB66} = {5B740219-DAA9-4DF8-BB62-D39CABD8931E}
 		{987DB352-8530-4CAF-AEEA-5C38005B05A7} = {5B740219-DAA9-4DF8-BB62-D39CABD8931E}
 		{5726F729-2CD0-4FF6-B78D-0CF52C30C3BD} = {20A29B40-B425-47CB-BD65-77F84F5A5093}
+		{B2E634B4-42E2-42B7-91FE-49E9B7EF520C} = {20A29B40-B425-47CB-BD65-77F84F5A5093}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {43FB1BAA-2307-42AE-B2AC-FF213B77100B}
