@@ -132,6 +132,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarEvents", "Chapter_10_Del
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnonymousMethods", "Chapter_10_Delegates_Events_and_Lambda_Expressions\AnonymousMethods\AnonymousMethods.csproj", "{349376EE-88C3-4384-8498-74D8F024D303}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleLambdaExpressions", "Chapter_10_Delegates_Events_and_Lambda_Expressions\SimpleLambdaExpressions\SimpleLambdaExpressions.csproj", "{BD53B4F5-A55B-4181-9F7F-1A1696901D19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaExpressionsMultipleParams", "Chapter_10_Delegates_Events_and_Lambda_Expressions\LambdaExpressionsMultipleParams\LambdaExpressionsMultipleParams.csproj", "{1214C72C-EF51-449D-AA82-0D9FB1A8426F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarEventsWithLambdas", "Chapter_10_Delegates_Events_and_Lambda_Expressions\CarEventsWithLambdas\CarEventsWithLambdas.csproj", "{265B9052-3905-4B98-AC0C-55B6D3147161}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -362,6 +368,18 @@ Global
 		{349376EE-88C3-4384-8498-74D8F024D303}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{349376EE-88C3-4384-8498-74D8F024D303}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{349376EE-88C3-4384-8498-74D8F024D303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD53B4F5-A55B-4181-9F7F-1A1696901D19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD53B4F5-A55B-4181-9F7F-1A1696901D19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD53B4F5-A55B-4181-9F7F-1A1696901D19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD53B4F5-A55B-4181-9F7F-1A1696901D19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1214C72C-EF51-449D-AA82-0D9FB1A8426F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1214C72C-EF51-449D-AA82-0D9FB1A8426F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1214C72C-EF51-449D-AA82-0D9FB1A8426F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1214C72C-EF51-449D-AA82-0D9FB1A8426F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{265B9052-3905-4B98-AC0C-55B6D3147161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{265B9052-3905-4B98-AC0C-55B6D3147161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{265B9052-3905-4B98-AC0C-55B6D3147161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{265B9052-3905-4B98-AC0C-55B6D3147161}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -423,6 +441,9 @@ Global
 		{FF84DB3D-B0CF-40DB-8830-4E51CEF8E03F} = {20A29B40-B425-47CB-BD65-77F84F5A5093}
 		{31292A3E-9D85-4D7C-A541-976F629A1B85} = {20A29B40-B425-47CB-BD65-77F84F5A5093}
 		{349376EE-88C3-4384-8498-74D8F024D303} = {20A29B40-B425-47CB-BD65-77F84F5A5093}
+		{BD53B4F5-A55B-4181-9F7F-1A1696901D19} = {20A29B40-B425-47CB-BD65-77F84F5A5093}
+		{1214C72C-EF51-449D-AA82-0D9FB1A8426F} = {20A29B40-B425-47CB-BD65-77F84F5A5093}
+		{265B9052-3905-4B98-AC0C-55B6D3147161} = {20A29B40-B425-47CB-BD65-77F84F5A5093}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {43FB1BAA-2307-42AE-B2AC-FF213B77100B}
