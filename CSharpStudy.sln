@@ -146,6 +146,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringIndexer", "Chapter_11
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverloadedOps", "Chapter_11_Advanced_language_facilities\OverloadedOps\OverloadedOps.csproj", "{BD43386C-1692-4C2F-9F32-0B7F19E8DA43}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomConversions", "Chapter_11_Advanced_language_facilities\CustomConversions\CustomConversions.csproj", "{908D6922-556C-45C0-9B1C-FF19E4727231}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -400,6 +402,10 @@ Global
 		{BD43386C-1692-4C2F-9F32-0B7F19E8DA43}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD43386C-1692-4C2F-9F32-0B7F19E8DA43}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD43386C-1692-4C2F-9F32-0B7F19E8DA43}.Release|Any CPU.Build.0 = Release|Any CPU
+		{908D6922-556C-45C0-9B1C-FF19E4727231}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{908D6922-556C-45C0-9B1C-FF19E4727231}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{908D6922-556C-45C0-9B1C-FF19E4727231}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{908D6922-556C-45C0-9B1C-FF19E4727231}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -467,6 +473,7 @@ Global
 		{B9C9564C-8912-45A7-A026-45D241285DF0} = {DB4B9856-6A78-4FA4-A53C-8D173FF93982}
 		{72B14518-E918-40AA-9249-B873791D12F6} = {DB4B9856-6A78-4FA4-A53C-8D173FF93982}
 		{BD43386C-1692-4C2F-9F32-0B7F19E8DA43} = {DB4B9856-6A78-4FA4-A53C-8D173FF93982}
+		{908D6922-556C-45C0-9B1C-FF19E4727231} = {DB4B9856-6A78-4FA4-A53C-8D173FF93982}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {43FB1BAA-2307-42AE-B2AC-FF213B77100B}
