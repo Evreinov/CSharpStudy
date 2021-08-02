@@ -154,6 +154,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceExtensions", "Chap
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnonymousTypes", "Chapter_11_Advanced_language_facilities\AnonymousTypes\AnonymousTypes.csproj", "{87340C60-9858-4DF8-8766-04B174D4F69A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnsafeCode", "Chapter_11_Advanced_language_facilities\UnsafeCode\UnsafeCode.csproj", "{AE732201-5BE3-4014-91D4-D1CDEAC6F5A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -424,6 +426,10 @@ Global
 		{87340C60-9858-4DF8-8766-04B174D4F69A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87340C60-9858-4DF8-8766-04B174D4F69A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87340C60-9858-4DF8-8766-04B174D4F69A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE732201-5BE3-4014-91D4-D1CDEAC6F5A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE732201-5BE3-4014-91D4-D1CDEAC6F5A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE732201-5BE3-4014-91D4-D1CDEAC6F5A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE732201-5BE3-4014-91D4-D1CDEAC6F5A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -495,6 +501,7 @@ Global
 		{58160CE4-6FBF-41ED-81A7-817671C42396} = {DB4B9856-6A78-4FA4-A53C-8D173FF93982}
 		{6589EFD8-FD9D-4FA5-9302-D9B82F39F7EB} = {DB4B9856-6A78-4FA4-A53C-8D173FF93982}
 		{87340C60-9858-4DF8-8766-04B174D4F69A} = {DB4B9856-6A78-4FA4-A53C-8D173FF93982}
+		{AE732201-5BE3-4014-91D4-D1CDEAC6F5A3} = {DB4B9856-6A78-4FA4-A53C-8D173FF93982}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {43FB1BAA-2307-42AE-B2AC-FF213B77100B}
