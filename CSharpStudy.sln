@@ -160,6 +160,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter_12_LINQ_to_Object",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqOverArray", "Chapter_12_LINQ_to_Object\LinqOverArray\LinqOverArray.csproj", "{8D2D2EF5-E01D-4150-8D08-8CBEFA84858E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqRetValues", "Chapter_12_LINQ_to_Object\LinqRetValues\LinqRetValues.csproj", "{3D822AC6-6AEC-4ACA-A9C8-35267C72D4F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -438,6 +440,10 @@ Global
 		{8D2D2EF5-E01D-4150-8D08-8CBEFA84858E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D2D2EF5-E01D-4150-8D08-8CBEFA84858E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D2D2EF5-E01D-4150-8D08-8CBEFA84858E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D822AC6-6AEC-4ACA-A9C8-35267C72D4F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D822AC6-6AEC-4ACA-A9C8-35267C72D4F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D822AC6-6AEC-4ACA-A9C8-35267C72D4F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D822AC6-6AEC-4ACA-A9C8-35267C72D4F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -511,6 +517,7 @@ Global
 		{87340C60-9858-4DF8-8766-04B174D4F69A} = {DB4B9856-6A78-4FA4-A53C-8D173FF93982}
 		{AE732201-5BE3-4014-91D4-D1CDEAC6F5A3} = {DB4B9856-6A78-4FA4-A53C-8D173FF93982}
 		{8D2D2EF5-E01D-4150-8D08-8CBEFA84858E} = {EB2C7EB3-EFED-490D-9AC7-B0967D48AA48}
+		{3D822AC6-6AEC-4ACA-A9C8-35267C72D4F3} = {EB2C7EB3-EFED-490D-9AC7-B0967D48AA48}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {43FB1BAA-2307-42AE-B2AC-FF213B77100B}
