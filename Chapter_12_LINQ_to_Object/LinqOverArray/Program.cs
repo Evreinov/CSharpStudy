@@ -109,6 +109,7 @@ namespace LinqOverArray
 
         /// <summary>
         /// LINQ и неявно типизированные локальные переменные.
+        /// И роль отложенного выполнения.
         /// </summary>
         static void QueryOverInts()
         {
@@ -120,10 +121,35 @@ namespace LinqOverArray
             // необходимо использовать неявную типизацию. Однако (в подавляющем большинстве случаев)
             // действительное возвращаемое значение имеет тип, реализующий интерфейс IEnumerable<T>.
             var subset = from i in numbers where i < 10 select i;
-            
+
+            // Оператор LINQ здесь оценивается!
             foreach (var i in subset)
-                Console.WriteLine("Item: {0}", i);
+                Console.WriteLine("{0} < 10", i);
+            Console.WriteLine();
+            // Изменить некоторые данные в массиве.
+            numbers[0] = 4;
+
+            // Снова производится оценка!
+            foreach (var j in subset)
+                Console.WriteLine("{0} < 10", j);
+            Console.WriteLine();
             ReflectOverQueryResults(subset);
+        }
+
+        /// <summary>
+        /// Роль немедленного выполнения.
+        /// </summary>
+        static void ImmediateExecution()
+        {
+            int[] numbers = { 10, 20, 30, 40, 1, 2, 3, 8 };
+
+            // Получить данные НЕМЕДЛЕННО как int[].
+            int[] subsetAsIntArray =
+                (from i in numbers where i < 10 select i).ToArray<int>();
+
+            // Получить данные НЕМЕДЛЕННО как List<int>.
+            List<int> subsetAsListOfInts =
+                (from i in numbers where i < 10 select i).ToList<int>();
         }
     }
 }
