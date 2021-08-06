@@ -180,6 +180,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinalizableDisposableClass"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LazyObjectInstantiation", "Chapter_13_The_lifetime_of_objects\LazyObjectInstantiation\LazyObjectInstantiation.csproj", "{24476E8B-34F1-47CE-AE7C-555592632C02}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter_14_Building_and_configuring_class_libraries", "Chapter_14_Building_and_configuring_class_libraries", "{181C296B-659B-406B-B975-92DE1297998E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomNamespaces", "Chapter_14_Building_and_configuring_class_libraries\CustomNamespaces\CustomNamespaces.csproj", "{7F1C3F89-CA95-4B33-9DD1-B5CA2A56389D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -494,6 +498,10 @@ Global
 		{24476E8B-34F1-47CE-AE7C-555592632C02}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24476E8B-34F1-47CE-AE7C-555592632C02}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24476E8B-34F1-47CE-AE7C-555592632C02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F1C3F89-CA95-4B33-9DD1-B5CA2A56389D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F1C3F89-CA95-4B33-9DD1-B5CA2A56389D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F1C3F89-CA95-4B33-9DD1-B5CA2A56389D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F1C3F89-CA95-4B33-9DD1-B5CA2A56389D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -576,6 +584,7 @@ Global
 		{5E62473A-7BC6-46C2-8745-DCF3EA3DF456} = {4093D3C7-3144-42DC-9A4D-FCBAB117F9A7}
 		{E8B0AD97-5BA4-46E2-A7FC-8B187B8F336A} = {4093D3C7-3144-42DC-9A4D-FCBAB117F9A7}
 		{24476E8B-34F1-47CE-AE7C-555592632C02} = {4093D3C7-3144-42DC-9A4D-FCBAB117F9A7}
+		{7F1C3F89-CA95-4B33-9DD1-B5CA2A56389D} = {181C296B-659B-406B-B975-92DE1297998E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {43FB1BAA-2307-42AE-B2AC-FF213B77100B}
