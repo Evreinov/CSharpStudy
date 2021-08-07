@@ -53,6 +53,7 @@
     <ProjectReference Include="..\CarLibrary\CarLibrary.csproj">
       <Project>{20d05135-fc90-47aa-b409-be6a05366fd8}</Project>
       <Name>CarLibrary</Name>
+      <Private>False</Private>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
