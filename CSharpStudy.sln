@@ -204,6 +204,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalAssemblyReflector",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedAsmReflector", "Chapter_15_Reflection_of_types\SharedAsmReflector\SharedAsmReflector.csproj", "{FD4B5EEE-7DCF-4AB2-8C9E-9FBC75738BE9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LateBindingApp", "Chapter_15_Reflection_of_types\LateBindingApp\LateBindingApp.csproj", "{45A76DAB-E06D-4C08-95C2-091FE6C121BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -558,6 +560,10 @@ Global
 		{FD4B5EEE-7DCF-4AB2-8C9E-9FBC75738BE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD4B5EEE-7DCF-4AB2-8C9E-9FBC75738BE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD4B5EEE-7DCF-4AB2-8C9E-9FBC75738BE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45A76DAB-E06D-4C08-95C2-091FE6C121BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45A76DAB-E06D-4C08-95C2-091FE6C121BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45A76DAB-E06D-4C08-95C2-091FE6C121BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45A76DAB-E06D-4C08-95C2-091FE6C121BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -650,6 +656,7 @@ Global
 		{1129657B-5289-4043-A995-552A860E7B11} = {A3A5F9DE-3712-48AB-9CF1-253D8A464AB6}
 		{E9F00527-31AD-4251-9619-E7ADD9E54F0E} = {A3A5F9DE-3712-48AB-9CF1-253D8A464AB6}
 		{FD4B5EEE-7DCF-4AB2-8C9E-9FBC75738BE9} = {A3A5F9DE-3712-48AB-9CF1-253D8A464AB6}
+		{45A76DAB-E06D-4C08-95C2-091FE6C121BC} = {A3A5F9DE-3712-48AB-9CF1-253D8A464AB6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {43FB1BAA-2307-42AE-B2AC-FF213B77100B}
