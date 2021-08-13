@@ -208,6 +208,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LateBindingApp", "Chapter_1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplyingAttributes", "Chapter_15_Reflection_of_types\ApplyingAttributes\ApplyingAttributes.csproj", "{16FCBA9F-19B9-4A88-8CB7-262F762D1D67}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributedCarLibrary", "Chapter_15_Reflection_of_types\AttributedCarLibrary\AttributedCarLibrary.csproj", "{E90DC92F-D238-4066-95AB-639A30493A72}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -570,6 +572,10 @@ Global
 		{16FCBA9F-19B9-4A88-8CB7-262F762D1D67}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16FCBA9F-19B9-4A88-8CB7-262F762D1D67}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16FCBA9F-19B9-4A88-8CB7-262F762D1D67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E90DC92F-D238-4066-95AB-639A30493A72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E90DC92F-D238-4066-95AB-639A30493A72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E90DC92F-D238-4066-95AB-639A30493A72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E90DC92F-D238-4066-95AB-639A30493A72}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -664,6 +670,7 @@ Global
 		{FD4B5EEE-7DCF-4AB2-8C9E-9FBC75738BE9} = {A3A5F9DE-3712-48AB-9CF1-253D8A464AB6}
 		{45A76DAB-E06D-4C08-95C2-091FE6C121BC} = {A3A5F9DE-3712-48AB-9CF1-253D8A464AB6}
 		{16FCBA9F-19B9-4A88-8CB7-262F762D1D67} = {A3A5F9DE-3712-48AB-9CF1-253D8A464AB6}
+		{E90DC92F-D238-4066-95AB-639A30493A72} = {A3A5F9DE-3712-48AB-9CF1-253D8A464AB6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {43FB1BAA-2307-42AE-B2AC-FF213B77100B}
