@@ -210,6 +210,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplyingAttributes", "Chapt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributedCarLibrary", "Chapter_15_Reflection_of_types\AttributedCarLibrary\AttributedCarLibrary.csproj", "{E90DC92F-D238-4066-95AB-639A30493A72}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehickeDescriptionAttributeReader", "Chapter_15_Reflection_of_types\VehickeDescriptionAttributeReader\VehickeDescriptionAttributeReader.csproj", "{3E8FAA0B-D436-410F-8E35-B7F49A7395CB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -576,6 +578,10 @@ Global
 		{E90DC92F-D238-4066-95AB-639A30493A72}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E90DC92F-D238-4066-95AB-639A30493A72}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E90DC92F-D238-4066-95AB-639A30493A72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E8FAA0B-D436-410F-8E35-B7F49A7395CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E8FAA0B-D436-410F-8E35-B7F49A7395CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E8FAA0B-D436-410F-8E35-B7F49A7395CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E8FAA0B-D436-410F-8E35-B7F49A7395CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -671,6 +677,7 @@ Global
 		{45A76DAB-E06D-4C08-95C2-091FE6C121BC} = {A3A5F9DE-3712-48AB-9CF1-253D8A464AB6}
 		{16FCBA9F-19B9-4A88-8CB7-262F762D1D67} = {A3A5F9DE-3712-48AB-9CF1-253D8A464AB6}
 		{E90DC92F-D238-4066-95AB-639A30493A72} = {A3A5F9DE-3712-48AB-9CF1-253D8A464AB6}
+		{3E8FAA0B-D436-410F-8E35-B7F49A7395CB} = {A3A5F9DE-3712-48AB-9CF1-253D8A464AB6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {43FB1BAA-2307-42AE-B2AC-FF213B77100B}
