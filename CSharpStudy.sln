@@ -220,6 +220,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicKeyword", "Chapter_1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExportDataToOfficeApp", "Chapter_16_Dynamic_types_and_DLR_environment\ExportDataToOfficeApp\ExportDataToOfficeApp.csproj", "{27C88C8A-75DA-4AFD-B7B8-40C5123A7E0B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter_17_Processes,_application_domains_and_object_contexts", "Chapter_17_Processes,_application_domains_and_object_contexts", "{393FEC78-662D-45B8-BD01-19A0E4A46E5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessManipulator", "Chapter_17_Processes,_application_domains_and_object_contexts\ProcessManipulator\ProcessManipulator.csproj", "{B2423EC7-6C7B-48BD-BD55-2AA0FC47E541}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -602,6 +606,10 @@ Global
 		{27C88C8A-75DA-4AFD-B7B8-40C5123A7E0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27C88C8A-75DA-4AFD-B7B8-40C5123A7E0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27C88C8A-75DA-4AFD-B7B8-40C5123A7E0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2423EC7-6C7B-48BD-BD55-2AA0FC47E541}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2423EC7-6C7B-48BD-BD55-2AA0FC47E541}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2423EC7-6C7B-48BD-BD55-2AA0FC47E541}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2423EC7-6C7B-48BD-BD55-2AA0FC47E541}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -701,6 +709,7 @@ Global
 		{40E2AF56-F56A-4918-BE4F-48B55D88147F} = {A3A5F9DE-3712-48AB-9CF1-253D8A464AB6}
 		{4B1E38B1-7B3D-43A2-BDB7-C3B69A36255D} = {D57032F6-A42C-4349-B8E8-94EFB90A370D}
 		{27C88C8A-75DA-4AFD-B7B8-40C5123A7E0B} = {D57032F6-A42C-4349-B8E8-94EFB90A370D}
+		{B2423EC7-6C7B-48BD-BD55-2AA0FC47E541} = {393FEC78-662D-45B8-BD01-19A0E4A46E5D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {43FB1BAA-2307-42AE-B2AC-FF213B77100B}
