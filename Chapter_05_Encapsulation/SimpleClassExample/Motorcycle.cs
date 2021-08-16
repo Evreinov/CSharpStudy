@@ -29,15 +29,15 @@ namespace SimpleClassExample
         //    driverIntensity = intensity;
         //}
 
-        //public Motorcycle(int intensity, string name)
-        //{
-        //    if (intensity > 10)
-        //    {
-        //        intensity = 10;
-        //    }
-        //    driverIntensity = intensity;
-        //    driverName = name;
-        //}
+        public Motorcycle(int intensity, string name)
+        {
+            if (intensity > 10)
+            {
+                intensity = 10;
+            }
+            driverIntensity = intensity;
+            driverName = name;
+        }
 
         // ==========================================================================================
 
@@ -67,15 +67,15 @@ namespace SimpleClassExample
 
         // Более совершенный подход связанный с построением цепочки вызовов конструкторов с использованием this
         // Связывание конструкторов в цепочку.
-        //public Motorcycle(int intensity) : this (intensity, "") 
-        //{
-        //    Console.WriteLine("In ctor taking an int"); // Внутри конструктора, принимающего int.
-        //}
+        public Motorcycle(int intensity) : this(intensity, "")
+        {
+            Console.WriteLine("In ctor taking an int"); // Внутри конструктора, принимающего int.
+        }
 
-        //public Motorcycle(string name) : this(0, name)
-        //{
-        //    Console.WriteLine("In ctor taking an string"); // Внутри конструктора, принимающего string.
-        //}
+        public Motorcycle(string name) : this(0, name)
+        {
+            Console.WriteLine("In ctor taking an string"); // Внутри конструктора, принимающего string.
+        }
         public void SetDriverName(string name)
         {
             driverName = name;
@@ -93,12 +93,12 @@ namespace SimpleClassExample
         // устанавливать все члены данных в стандартные значения.
         // (т.к. если определен специальный конструктор, то стандартный конструктор
         // молча удаляется из класса и перестает быть доступным, нужно стандартный конструктор явно переопределить)
-        public Motorcycle() { }
+        //public Motorcycle() { }
 
         // Специальный конструктор.
-        public Motorcycle(int intensity)
-        {
-            driverIntensity = intensity;
-        }
+        //public Motorcycle(int intensity)
+        //{
+        //    driverIntensity = intensity;
+        //}
     }
 }
