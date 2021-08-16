@@ -226,6 +226,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProcessManipulator", "Chapt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DefaultAppDomainApp", "Chapter_17_Processes,_application_domains_and_object_contexts\DefaultAppDomainApp\DefaultAppDomainApp.csproj", "{7F6FB3B7-A44F-4BA7-AD4C-42369EC4BDAF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomAppDomains", "Chapter_17_Processes,_application_domains_and_object_contexts\CustomAppDomains\CustomAppDomains.csproj", "{659BAE55-81DD-42AD-9FA9-085530786684}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -616,6 +618,10 @@ Global
 		{7F6FB3B7-A44F-4BA7-AD4C-42369EC4BDAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F6FB3B7-A44F-4BA7-AD4C-42369EC4BDAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F6FB3B7-A44F-4BA7-AD4C-42369EC4BDAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{659BAE55-81DD-42AD-9FA9-085530786684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{659BAE55-81DD-42AD-9FA9-085530786684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{659BAE55-81DD-42AD-9FA9-085530786684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{659BAE55-81DD-42AD-9FA9-085530786684}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -717,6 +723,7 @@ Global
 		{27C88C8A-75DA-4AFD-B7B8-40C5123A7E0B} = {D57032F6-A42C-4349-B8E8-94EFB90A370D}
 		{B2423EC7-6C7B-48BD-BD55-2AA0FC47E541} = {393FEC78-662D-45B8-BD01-19A0E4A46E5D}
 		{7F6FB3B7-A44F-4BA7-AD4C-42369EC4BDAF} = {393FEC78-662D-45B8-BD01-19A0E4A46E5D}
+		{659BAE55-81DD-42AD-9FA9-085530786684} = {393FEC78-662D-45B8-BD01-19A0E4A46E5D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {43FB1BAA-2307-42AE-B2AC-FF213B77100B}
