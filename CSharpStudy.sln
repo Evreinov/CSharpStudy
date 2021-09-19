@@ -234,6 +234,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter_18_CIL_language", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloProgram", "Chapter_18_CIL_language\HelloProgram\HelloProgram.csproj", "{29334B36-6E2B-4F79-9868-3AAA3D44BBE0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyAsmBuilder", "Chapter_18_CIL_language\MyAsmBuilder\MyAsmBuilder.csproj", "{A31C65BB-EDE5-4FB6-9E25-8E88B5BF5BF7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -1032,6 +1034,14 @@ Global
 		{29334B36-6E2B-4F79-9868-3AAA3D44BBE0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{29334B36-6E2B-4F79-9868-3AAA3D44BBE0}.Release|x86.ActiveCfg = Release|Any CPU
 		{29334B36-6E2B-4F79-9868-3AAA3D44BBE0}.Release|x86.Build.0 = Release|Any CPU
+		{A31C65BB-EDE5-4FB6-9E25-8E88B5BF5BF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A31C65BB-EDE5-4FB6-9E25-8E88B5BF5BF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A31C65BB-EDE5-4FB6-9E25-8E88B5BF5BF7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A31C65BB-EDE5-4FB6-9E25-8E88B5BF5BF7}.Debug|x86.Build.0 = Debug|Any CPU
+		{A31C65BB-EDE5-4FB6-9E25-8E88B5BF5BF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A31C65BB-EDE5-4FB6-9E25-8E88B5BF5BF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A31C65BB-EDE5-4FB6-9E25-8E88B5BF5BF7}.Release|x86.ActiveCfg = Release|Any CPU
+		{A31C65BB-EDE5-4FB6-9E25-8E88B5BF5BF7}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1136,6 +1146,7 @@ Global
 		{659BAE55-81DD-42AD-9FA9-085530786684} = {393FEC78-662D-45B8-BD01-19A0E4A46E5D}
 		{6F267E2D-90FE-4462-8001-E951A8AC7455} = {393FEC78-662D-45B8-BD01-19A0E4A46E5D}
 		{29334B36-6E2B-4F79-9868-3AAA3D44BBE0} = {7913CD81-3563-4A7F-8940-DAC4495D12D0}
+		{A31C65BB-EDE5-4FB6-9E25-8E88B5BF5BF7} = {7913CD81-3563-4A7F-8940-DAC4495D12D0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {43FB1BAA-2307-42AE-B2AC-FF213B77100B}
