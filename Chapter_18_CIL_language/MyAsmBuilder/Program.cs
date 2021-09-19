@@ -13,6 +13,39 @@ namespace MyAsmBuilder
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("***** The Amazing Dynamic Assembly Builder App *****");
+
+            // Получить домен приложения для текущего потока.
+            AppDomain curAppDomain = Thread.GetDomain();
+
+            // Создать динамическую сборку с помощью нашего вспомогательного метода.
+            CreateMyAsm(curAppDomain);
+            Console.WriteLine("-> Finished creating MyAssembly.dll.");
+
+            // Загрузить новую сборку из файла.
+            Console.WriteLine("-> Loading MyAssembly.dll from file.");
+            Assembly a = Assembly.Load("MyAssembly");
+
+            // Получить тип HelloWorld.
+            Type hello = a.GetType("MyAssembly.HelloWorld");
+
+            // Создать объект HelloWorld и вызвать корректный конструктор.
+            Console.WriteLine("-> Enter message to pass HelloWorld class: ");
+            string msg = Console.ReadLine();
+            object[] ctorArgs = new object[1];
+            ctorArgs[0] = msg;
+            object obj = Activator.CreateInstance(hello, ctorArgs);
+
+            // Вызвать SayHello() и отобразить возвращенную строку.
+            Console.WriteLine("-> Calling SayHello() via late binding.");
+            MethodInfo mi = hello.GetMethod("SayHello");
+            mi.Invoke(obj, null);
+
+            // Вызвать метод GetMsg().
+            mi = hello.GetMethod("GetMsg");
+            Console.WriteLine(mi.Invoke(obj, null));
+
+            Console.ReadLine();
         }
 
         // Объект AppDomain отправляется вызывающем кодом.
@@ -30,7 +63,7 @@ namespace MyAsmBuilder
             ModuleBuilder module = assembly.DefineDynamicModule("MyAssembly", "MyAssembly.dll");
 
             // Определить открытый класс по имени HelloWorld.
-            TypeBuilder helloWorldClass = module.DefineType("MyAssembly.HellowWorld", TypeAttributes.Public);
+            TypeBuilder helloWorldClass = module.DefineType("MyAssembly.HelloWorld", TypeAttributes.Public);
 
             // Определить закрытую переменную-член типа String по имени theMessage.
             FieldBuilder msgField = helloWorldClass.DefineField("theMessage", Type.GetType("System.String"), FieldAttributes.Private);
