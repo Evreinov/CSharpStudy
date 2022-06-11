@@ -12,9 +12,15 @@ namespace DirectoryApp
             DisplayImageFiles();
             ModifyAppDirectory();
             ModifyAppDirectory2();
+            FunWithDirectoryType();
             Console.ReadLine();
         }
 
+        #region Работа с типом DirectoryInfo
+
+        /// <summary>
+        /// Работа с типом DirectoryInfo.
+        /// </summary>
         static void ShowWindowsDirectoryInfo()
         {
             // Вывести информацию о каталоге.
@@ -87,5 +93,39 @@ namespace DirectoryApp
             // Выводит путь к ..\MyFolder2\Data
             Console.WriteLine("New Folder is: {0}", myDataFolder);
         }
+
+        #endregion
+
+        #region Работа с типом Directory
+
+        /// <summary>
+        /// Работа с типом Directory.
+        /// </summary>
+        static void FunWithDirectoryType()
+        {
+            // Вывести список всех логических устройств на текущем компьютере.
+            string[] drives = Directory.GetLogicalDrives();
+            Console.WriteLine("Here are your drives:");
+            foreach (var s in drives)
+            {
+                Console.WriteLine("--> {0}", s);
+            }
+
+            // Удалить ранее созданные подкаталоги.
+            Console.WriteLine("Press Enter to delete directories");
+            Console.ReadLine();
+            try
+            {
+                Directory.Delete(@"C:\MyFolder");
+                // Второй параметр указывает, нужно ли удалять внутренние подкаталоги.
+                Directory.Delete(@"C:\MyFolder2", true);
+            }
+            catch (IOException e)
+            {
+                Console.WriteLine(e.Message);
+            }
+        }
+
+        #endregion
     }
 }
