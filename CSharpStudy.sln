@@ -289,12 +289,21 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomSerialization", "Chapter_20_File_IO_and_Object_Serialization\CustomSerialization\CustomSerialization.csproj", "{3F2FD601-45FF-47E4-ABC1-959F45222769}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter_21_Data_access_using_ADO_NET", "Chapter_21_Data_access_using_ADO_NET", "{373414F2-7F09-488B-8BC2-74BCC67C5010}"
+	ProjectSection(SolutionItems) = preProject
+		Chapter_21_Data_access_using_ADO_NET\AutoLot.bak = Chapter_21_Data_access_using_ADO_NET\AutoLot.bak
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyConnectionFactory", "Chapter_21_Data_access_using_ADO_NET\MyConnectionFactory\MyConnectionFactory.csproj", "{5B4B4FA0-55D7-40A4-BF4E-50C50B4121F9}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataProviderFactory", "Chapter_21_Data_access_using_ADO_NET\DataProviderFactory\DataProviderFactory.csproj", "{FF47C15A-E255-4375-AFCF-E0F1A917E5B0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoLotDataReader", "Chapter_21_Data_access_using_ADO_NET\AutoLotDataReader\AutoLotDataReader.csproj", "{39D5A883-252F-4D8C-A73B-D8EE64053498}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AutoLotDAL", "AutoLotDAL", "{07A2A271-5E9E-4CA0-A4BE-1E086DB2FC02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoLotDAL", "Chapter_21_Data_access_using_ADO_NET\AutoLotDAL\AutoLotDAL\AutoLotDAL.csproj", "{32EBF04A-4310-47E2-B2C3-D24909D3CD9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoLotClient", "Chapter_21_Data_access_using_ADO_NET\AutoLotDAL\AutoLotClient\AutoLotClient.csproj", "{CBE21470-2024-4FDB-8402-449ADB97D9B8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -1318,6 +1327,22 @@ Global
 		{39D5A883-252F-4D8C-A73B-D8EE64053498}.Release|Any CPU.Build.0 = Release|Any CPU
 		{39D5A883-252F-4D8C-A73B-D8EE64053498}.Release|x86.ActiveCfg = Release|Any CPU
 		{39D5A883-252F-4D8C-A73B-D8EE64053498}.Release|x86.Build.0 = Release|Any CPU
+		{32EBF04A-4310-47E2-B2C3-D24909D3CD9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32EBF04A-4310-47E2-B2C3-D24909D3CD9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32EBF04A-4310-47E2-B2C3-D24909D3CD9F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{32EBF04A-4310-47E2-B2C3-D24909D3CD9F}.Debug|x86.Build.0 = Debug|Any CPU
+		{32EBF04A-4310-47E2-B2C3-D24909D3CD9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32EBF04A-4310-47E2-B2C3-D24909D3CD9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32EBF04A-4310-47E2-B2C3-D24909D3CD9F}.Release|x86.ActiveCfg = Release|Any CPU
+		{32EBF04A-4310-47E2-B2C3-D24909D3CD9F}.Release|x86.Build.0 = Release|Any CPU
+		{CBE21470-2024-4FDB-8402-449ADB97D9B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBE21470-2024-4FDB-8402-449ADB97D9B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBE21470-2024-4FDB-8402-449ADB97D9B8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CBE21470-2024-4FDB-8402-449ADB97D9B8}.Debug|x86.Build.0 = Debug|Any CPU
+		{CBE21470-2024-4FDB-8402-449ADB97D9B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBE21470-2024-4FDB-8402-449ADB97D9B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBE21470-2024-4FDB-8402-449ADB97D9B8}.Release|x86.ActiveCfg = Release|Any CPU
+		{CBE21470-2024-4FDB-8402-449ADB97D9B8}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1450,6 +1475,9 @@ Global
 		{5B4B4FA0-55D7-40A4-BF4E-50C50B4121F9} = {373414F2-7F09-488B-8BC2-74BCC67C5010}
 		{FF47C15A-E255-4375-AFCF-E0F1A917E5B0} = {373414F2-7F09-488B-8BC2-74BCC67C5010}
 		{39D5A883-252F-4D8C-A73B-D8EE64053498} = {373414F2-7F09-488B-8BC2-74BCC67C5010}
+		{07A2A271-5E9E-4CA0-A4BE-1E086DB2FC02} = {373414F2-7F09-488B-8BC2-74BCC67C5010}
+		{32EBF04A-4310-47E2-B2C3-D24909D3CD9F} = {07A2A271-5E9E-4CA0-A4BE-1E086DB2FC02}
+		{CBE21470-2024-4FDB-8402-449ADB97D9B8} = {07A2A271-5E9E-4CA0-A4BE-1E086DB2FC02}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {43FB1BAA-2307-42AE-B2AC-FF213B77100B}
